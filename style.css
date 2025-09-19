@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   padding: 0;
   margin: 0;
@@ -114,6 +117,11 @@ header {
   height: auto;
 }
 
+.pdf a {
+  text-decoration: none;
+  color: white;
+}
+
 .about-me {
   background-color:#3e3e4b;
   height: 100vh;
@@ -195,13 +203,24 @@ footer p {
   background-color: #3e3e4b;
   padding-top: 5%;
   padding-bottom: 5%;
+  text-align: center;
 }
+
+.portfolio-head h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  content: "";
+  display: inline-block;
+  border-bottom: 5px solid #FFA500;
+  width: 30%;   
+}
+
 
 .portfolio {
   display: flex;
   justify-content: center; /* Menengahkan secara horizontal */
   gap: 30px; /* Jarak antar card */
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
 /* Item Portfolio */
