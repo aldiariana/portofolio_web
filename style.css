@@ -239,6 +239,77 @@ footer p {
   text-decoration: none;
   color: white; 
 }
+/* Styling untuk section Contact */
+.contact {
+  background-color:  #2d2d3a; /* Warna latar belakang berbeda agar terlihat menonjol */
+  padding: 60px 20px;
+  text-align: center;
+  color: white;
+}
+
+.contact h2 {
+  font-size: 30px;
+  border-bottom: 3px solid #FFA500;
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.contact-info p {
+  margin-bottom: 15px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  border-bottom: 2px solid #FFA500;
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #FFA500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e68a00;
+}
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
